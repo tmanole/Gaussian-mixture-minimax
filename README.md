@@ -1,4 +1,4 @@
-# Gaussian-mixture-minimax
+# Gaussian-mixture-twocomp
 Code repository for reproducing the simulation study in the paper 
 
 Manole, T., Ho, N. (2020), [Uniform Convergence Rates for Maximum Likelihood Estimation under Two-Component Gaussian Mixture Models](https://arxiv.org/abs/2006.00704), preprint, arXiv:2006.00704.
