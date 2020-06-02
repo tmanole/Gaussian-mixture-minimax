@@ -4,7 +4,7 @@ Code repository for reproducing the simulation study in the paper
 Manole, T., Ho, N. (2020), [Uniform Convergence Rates for Maximum Likelihood Estimation under Two-Component Gaussian Mixture Models](https://arxiv.org/abs/2006.00704), preprint, arXiv:2006.00704.
 
 ## Dependencies 
-This code has only been tested using Python 3.6 and Mathematica 12.1. The dependencies for the Python code are the packages `NumPy`, `multiprocessing`, `argparse`. 
+This code has only been tested using Python 3.6 and Mathematica 12.1. Beyond the Python Standard Library, the only required package is `NumPy`.
 
 ## Usage 
 ### Mathematica
