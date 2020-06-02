@@ -58,6 +58,13 @@ elif model == 4:
     def get_params(n):
         return params_model4(n)
 
+elif model == 5:
+    if pi != 0.5:
+        print("Warning: Running Model 5 without pi = 0.5.")
+
+    def get_params(n):
+        return params_model5(n)
+
 else:
     sys.exit("Model unrecognized.")
 
