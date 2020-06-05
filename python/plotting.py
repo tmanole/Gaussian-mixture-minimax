@@ -62,10 +62,10 @@ def plot_model(model, pi, r_loss, n0):
         metric = asymloss
 
     if pi != 0.5:   
-        lab = "$\\varphi_" + str(r_loss) + "(\hat{\\boldsymbol{\eta}}_n, \\boldsymbol{\eta}_n)$" 
+        lab = "$\psi_" + str(r_loss) + "(\hat{\\boldsymbol{\eta}}_n, \\boldsymbol{\eta}_n)$" 
    
     else:
-        lab = "$\psi_" + str(r_loss) + "(\hat{\\boldsymbol{\eta}}_n, \\boldsymbol{\eta}_n)$" 
+        lab = "$\\varphi_" + str(r_loss) + "(\hat{\\boldsymbol{\eta}}_n, \\boldsymbol{\eta}_n)$" 
     
     n_num = M.shape[0]
     ns = np.linspace(1000, 100000, n_num)
